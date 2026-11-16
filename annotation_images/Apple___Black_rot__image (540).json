@@ -1,0 +1,100 @@
+{
+  "version": "7.9.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Blight",
+      "points": [
+        [
+          29.611418047882132,
+          83.04845764272561
+        ],
+        [
+          38.025322283609576,
+          86.8885244014733
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          180.52791206261512,
+          30.639963167587478
+        ],
+        [
+          192.2092541436464,
+          33.46426104972376
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          207.1422076427256,
+          73.04903314917128
+        ],
+        [
+          217.1315607734807,
+          76.39991942909761
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          160.52186924493554,
+          39.25961095764273
+        ],
+        [
+          167.61498618784532,
+          42.040745856353595
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          116.28125,
+          31.9060773480663
+        ],
+        [
+          128.0748158379374,
+          32.88875460405157
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "Apple___Black_rot__image (540).JPG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}

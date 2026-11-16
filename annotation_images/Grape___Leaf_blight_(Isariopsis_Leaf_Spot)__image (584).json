@@ -1,0 +1,100 @@
+{
+  "version": "7.9.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Blight",
+      "points": [
+        [
+          169.9069406077348,
+          116.89686924493554
+        ],
+        [
+          186.1002532228361,
+          125.55536372007367
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          212.02106353591162,
+          107.45424723756906
+        ],
+        [
+          222.17443600368327,
+          113.62799263351751
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          207.24148250460405,
+          162.09426795580112
+        ],
+        [
+          219.32424033149172,
+          166.2954650092081
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          178.60715930018418,
+          195.6002532228361
+        ],
+        [
+          189.9187384898711,
+          199.58995165745858
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          104.371144106814,
+          45.74269106813997
+        ],
+        [
+          114.16050874769797,
+          47.04045810313076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)__image (584).JPG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}

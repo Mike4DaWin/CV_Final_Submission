@@ -1,0 +1,28 @@
+{
+  "version": "7.9.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Blight",
+      "points": [
+        [
+          171.3759208103131,
+          58.749136740331494
+        ],
+        [
+          180.66315607734808,
+          63.426565377532235
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "Apple___Black_rot__image (608).JPG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}

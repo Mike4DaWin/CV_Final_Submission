@@ -1,0 +1,3 @@
+model,accuracy,crop_correct,chance,most_predicted,most_predicted_share
+Baseline CNN,0.07059736549854279,0.1908456167571761,0.02631578947368421,"Pepper,_bell___Bacterial_spot",0.26881303335919315
+ResNet-50,0.17998448014259338,0.386733902249806,0.02631578947368421,Strawberry___Leaf_scorch,0.3110938712179985

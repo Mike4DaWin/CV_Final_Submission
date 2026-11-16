@@ -1,0 +1,64 @@
+{
+  "version": "7.9.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Blight",
+      "points": [
+        [
+          108.86091522596301,
+          146.50510881104034
+        ],
+        [
+          118.9612431756142,
+          151.1471129056718
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          126.18490294206855,
+          207.33100166818318
+        ],
+        [
+          149.18166135881103,
+          224.50215157719137
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          123.86271610555049,
+          97.05319229602668
+        ],
+        [
+          145.7979033970276,
+          112.18413519866544
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "Orange___Haunglongbing_(Citrus_greening)__image (2093).JPG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}

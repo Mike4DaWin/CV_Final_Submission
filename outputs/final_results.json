@@ -1,0 +1,583 @@
+{
+  "Baseline CNN": {
+    "test_accuracy": 0.8898,
+    "ci_95": [
+      0.8829,
+      0.8963
+    ],
+    "macro_f1": 0.8594,
+    "clean_leaf_energy": 0.5901,
+    "clean_entropy": 0.952,
+    "asr_5pct": 0.987,
+    "noise_asr_5pct": 0.1213,
+    "asr_10pct": 0.9908,
+    "noise_asr_10pct": 0.398,
+    "asr_15pct": 0.9739,
+    "noise_asr_15pct": 0.589,
+    "patch_energy_10pct": 0.8541,
+    "attractor_class": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+    "attractor_class_idx": 7,
+    "per_image_correlations_10pct": {
+      "entropy_vs_conf_drop": {
+        "spearman_rho": 0.4295,
+        "spearman_p": 0.0,
+        "significant": true
+      },
+      "entropy_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "entropy_vs_p_patched": {
+        "spearman_rho": -0.3346,
+        "spearman_p": 2.3769480116977483e-187,
+        "significant": true
+      },
+      "entropy_vs_rel_drop": {
+        "spearman_rho": 0.1258,
+        "spearman_p": 9.73913618030267e-27,
+        "significant": true
+      },
+      "hot_area_vs_conf_drop": {
+        "spearman_rho": 0.3877,
+        "spearman_p": 2.5175670342266907e-256,
+        "significant": true
+      },
+      "hot_area_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "hot_area_vs_p_patched": {
+        "spearman_rho": -0.3452,
+        "spearman_p": 4.9324217628234663e-200,
+        "significant": true
+      },
+      "hot_area_vs_rel_drop": {
+        "spearman_rho": 0.2217,
+        "spearman_p": 1.0780917370167862e-80,
+        "significant": true
+      },
+      "leaf_energy_vs_conf_drop": {
+        "spearman_rho": 0.1815,
+        "spearman_p": 3.1217553661249064e-54,
+        "significant": true
+      },
+      "leaf_energy_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "leaf_energy_vs_p_patched": {
+        "spearman_rho": 0.2649,
+        "spearman_p": 1.312002202455487e-115,
+        "significant": true
+      },
+      "leaf_energy_vs_rel_drop": {
+        "spearman_rho": -0.2203,
+        "spearman_p": 1.2591156309798709e-79,
+        "significant": true
+      },
+      "leaf_energy_dil_vs_conf_drop": {
+        "spearman_rho": 0.1478,
+        "spearman_p": 2.2770171360762157e-36,
+        "significant": true
+      },
+      "leaf_energy_dil_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "leaf_energy_dil_vs_p_patched": {
+        "spearman_rho": 0.2718,
+        "spearman_p": 8.157409282348845e-122,
+        "significant": true
+      },
+      "leaf_energy_dil_vs_rel_drop": {
+        "spearman_rho": -0.2068,
+        "spearman_p": 3.165369249421545e-70,
+        "significant": true
+      },
+      "lesion_iou_vs_conf_drop": {
+        "spearman_rho": 0.0236,
+        "spearman_p": 0.18637434747689607,
+        "significant": false
+      },
+      "lesion_iou_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "lesion_iou_vs_p_patched": {
+        "spearman_rho": 0.3605,
+        "spearman_p": 9.017243129046419e-97,
+        "significant": true
+      },
+      "lesion_iou_vs_rel_drop": {
+        "spearman_rho": -0.2433,
+        "spearman_p": 1.8659920141942114e-43,
+        "significant": true
+      },
+      "lesion_energy_vs_conf_drop": {
+        "spearman_rho": 0.1766,
+        "spearman_p": 2.3343664644883086e-23,
+        "significant": true
+      },
+      "lesion_energy_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.4638,
+        "spearman_p": 6.542903855101454e-167,
+        "significant": true
+      },
+      "lesion_energy_vs_rel_drop": {
+        "spearman_rho": -0.3142,
+        "spearman_p": 9.370119917834483e-73,
+        "significant": true
+      },
+      "lesion_lift_vs_conf_drop": {
+        "spearman_rho": -0.1546,
+        "spearman_p": 3.219544714688803e-18,
+        "significant": true
+      },
+      "lesion_lift_vs_flipped": {
+        "spearman_rho": NaN,
+        "spearman_p": NaN,
+        "significant": false
+      },
+      "lesion_lift_vs_p_patched": {
+        "spearman_rho": 0.403,
+        "spearman_p": 1.1237526324681458e-122,
+        "significant": true
+      },
+      "lesion_lift_vs_rel_drop": {
+        "spearman_rho": -0.194,
+        "spearman_p": 5.97215719770962e-28,
+        "significant": true
+      }
+    },
+    "per_class_correlations_10pct": {
+      "lesion_iou_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 25,
+        "note": "no variance"
+      },
+      "lesion_iou_vs_mean_log_p": {
+        "spearman_rho": 0.3861,
+        "spearman_p": 0.05663458364645056,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "lesion_lift_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 25,
+        "note": "no variance"
+      },
+      "lesion_lift_vs_mean_log_p": {
+        "spearman_rho": 0.4307,
+        "spearman_p": 0.0315946655511045,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "leaf_energy_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 37,
+        "note": "no variance"
+      },
+      "leaf_energy_vs_mean_log_p": {
+        "spearman_rho": 0.3307,
+        "spearman_p": 0.045565933109698246,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "entropy_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 37,
+        "note": "no variance"
+      },
+      "entropy_vs_mean_log_p": {
+        "spearman_rho": -0.4221,
+        "spearman_p": 0.00925441347518071,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "lesion_frac(all)_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 37,
+        "note": "no variance"
+      },
+      "lesion_frac(diseased)_vs_flip_rate": {
+        "spearman_rho": null,
+        "spearman_p": null,
+        "significant": false,
+        "n": 25,
+        "note": "no variance"
+      },
+      "lesion_frac(all)_vs_mean_log_p": {
+        "spearman_rho": 0.474,
+        "spearman_p": 0.003041327483656805,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "lesion_frac(diseased)_vs_mean_log_p": {
+        "spearman_rho": 0.3919,
+        "spearman_p": 0.05269445742870446,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      }
+    },
+    "tercile_correlations_10pct": {
+      "small_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.5034,
+        "spearman_p": 3.078777889585863e-68,
+        "n": 1045
+      },
+      "small_lesion_lift_vs_p_patched": {
+        "spearman_rho": 0.4606,
+        "spearman_p": 5.204108487430799e-56,
+        "n": 1045
+      },
+      "medium_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.4844,
+        "spearman_p": 1.558892049083457e-62,
+        "n": 1044
+      },
+      "medium_lesion_lift_vs_p_patched": {
+        "spearman_rho": 0.3924,
+        "spearman_p": 9.146406378473371e-40,
+        "n": 1044
+      },
+      "large_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.25,
+        "spearman_p": 2.453228418659475e-16,
+        "n": 1044
+      },
+      "large_lesion_lift_vs_p_patched": {
+        "spearman_rho": 0.0428,
+        "spearman_p": 0.1673380816671958,
+        "n": 1044
+      }
+    },
+    "plantdoc_accuracy": 0.0706,
+    "plantdoc_crop_correct": 0.1908,
+    "bg_clean_acc": 0.8902,
+    "bg_leaf_only_acc": 0.5444,
+    "bg_bg_only_acc": 0.0831,
+    "bg_leaf_only_acc_cc": 0.5828,
+    "bg_bg_only_acc_cc": 0.0833,
+    "bg_swap_own_pct": 0.6947,
+    "bg_swap_donor_pct": 0.0277
+  },
+  "ResNet-50": {
+    "test_accuracy": 0.9971,
+    "ci_95": [
+      0.9958,
+      0.9982
+    ],
+    "macro_f1": 0.9956,
+    "clean_leaf_energy": 0.7505,
+    "clean_entropy": 0.9486,
+    "asr_5pct": 0.7062,
+    "noise_asr_5pct": 0.0011,
+    "asr_10pct": 0.9141,
+    "noise_asr_10pct": 0.0032,
+    "asr_15pct": 0.9424,
+    "noise_asr_15pct": 0.0078,
+    "patch_energy_10pct": 0.5097,
+    "attractor_class": "Peach___Bacterial_spot",
+    "attractor_class_idx": 16,
+    "per_image_correlations_10pct": {
+      "entropy_vs_conf_drop": {
+        "spearman_rho": 0.0296,
+        "spearman_p": 0.00895075568519481,
+        "significant": false
+      },
+      "entropy_vs_flipped": {
+        "spearman_rho": -0.0811,
+        "spearman_p": 7.638403668566592e-13,
+        "significant": true
+      },
+      "entropy_vs_p_patched": {
+        "spearman_rho": 0.1303,
+        "spearman_p": 8.629609931745263e-31,
+        "significant": true
+      },
+      "entropy_vs_rel_drop": {
+        "spearman_rho": -0.1236,
+        "spearman_p": 7.521461173109898e-28,
+        "significant": true
+      },
+      "hot_area_vs_conf_drop": {
+        "spearman_rho": 0.0586,
+        "spearman_p": 2.2974654015889147e-07,
+        "significant": true
+      },
+      "hot_area_vs_flipped": {
+        "spearman_rho": -0.0586,
+        "spearman_p": 2.2657385333742574e-07,
+        "significant": true
+      },
+      "hot_area_vs_p_patched": {
+        "spearman_rho": 0.0885,
+        "spearman_p": 5.1762387939490536e-15,
+        "significant": true
+      },
+      "hot_area_vs_rel_drop": {
+        "spearman_rho": -0.0859,
+        "spearman_p": 3.13259411290934e-14,
+        "significant": true
+      },
+      "leaf_energy_vs_conf_drop": {
+        "spearman_rho": 0.0019,
+        "spearman_p": 0.8640771597064084,
+        "significant": false
+      },
+      "leaf_energy_vs_flipped": {
+        "spearman_rho": -0.04,
+        "spearman_p": 0.0004221621109240576,
+        "significant": false
+      },
+      "leaf_energy_vs_p_patched": {
+        "spearman_rho": 0.0442,
+        "spearman_p": 9.702322702381818e-05,
+        "significant": true
+      },
+      "leaf_energy_vs_rel_drop": {
+        "spearman_rho": -0.0458,
+        "spearman_p": 5.2864163165587447e-05,
+        "significant": true
+      },
+      "leaf_energy_dil_vs_conf_drop": {
+        "spearman_rho": 0.0112,
+        "spearman_p": 0.32508561563553073,
+        "significant": false
+      },
+      "leaf_energy_dil_vs_flipped": {
+        "spearman_rho": -0.0439,
+        "spearman_p": 0.00010764443300925062,
+        "significant": true
+      },
+      "leaf_energy_dil_vs_p_patched": {
+        "spearman_rho": 0.0391,
+        "spearman_p": 0.000568028308166978,
+        "significant": false
+      },
+      "leaf_energy_dil_vs_rel_drop": {
+        "spearman_rho": -0.0399,
+        "spearman_p": 0.0004347002533934669,
+        "significant": false
+      },
+      "lesion_iou_vs_conf_drop": {
+        "spearman_rho": -0.1694,
+        "spearman_p": 3.9229368418373245e-23,
+        "significant": true
+      },
+      "lesion_iou_vs_flipped": {
+        "spearman_rho": -0.1142,
+        "spearman_p": 2.8968515353744707e-11,
+        "significant": true
+      },
+      "lesion_iou_vs_p_patched": {
+        "spearman_rho": 0.1779,
+        "spearman_p": 2.2096722536052126e-25,
+        "significant": true
+      },
+      "lesion_iou_vs_rel_drop": {
+        "spearman_rho": -0.1772,
+        "spearman_p": 3.569049978733257e-25,
+        "significant": true
+      },
+      "lesion_energy_vs_conf_drop": {
+        "spearman_rho": -0.2229,
+        "spearman_p": 3.2284745818207646e-39,
+        "significant": true
+      },
+      "lesion_energy_vs_flipped": {
+        "spearman_rho": -0.1627,
+        "spearman_p": 1.997657595373642e-21,
+        "significant": true
+      },
+      "lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.2305,
+        "spearman_p": 7.067628888998089e-42,
+        "significant": true
+      },
+      "lesion_energy_vs_rel_drop": {
+        "spearman_rho": -0.2297,
+        "spearman_p": 1.2893060558024808e-41,
+        "significant": true
+      },
+      "lesion_lift_vs_conf_drop": {
+        "spearman_rho": 0.1174,
+        "spearman_p": 8.07873149482204e-12,
+        "significant": true
+      },
+      "lesion_lift_vs_flipped": {
+        "spearman_rho": 0.1115,
+        "spearman_p": 8.551954899707183e-11,
+        "significant": true
+      },
+      "lesion_lift_vs_p_patched": {
+        "spearman_rho": -0.1461,
+        "spearman_p": 1.5297226682197662e-17,
+        "significant": true
+      },
+      "lesion_lift_vs_rel_drop": {
+        "spearman_rho": 0.1457,
+        "spearman_p": 1.8459835627299117e-17,
+        "significant": true
+      }
+    },
+    "per_class_correlations_10pct": {
+      "lesion_iou_vs_flip_rate": {
+        "spearman_rho": -0.4448,
+        "spearman_p": 0.025881565690936734,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "lesion_iou_vs_mean_log_p": {
+        "spearman_rho": 0.4777,
+        "spearman_p": 0.015736283971364857,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "lesion_lift_vs_flip_rate": {
+        "spearman_rho": 0.1555,
+        "spearman_p": 0.45786089756328957,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "lesion_lift_vs_mean_log_p": {
+        "spearman_rho": -0.2185,
+        "spearman_p": 0.2941205702947027,
+        "significant": false,
+        "n": 25,
+        "note": ""
+      },
+      "leaf_energy_vs_flip_rate": {
+        "spearman_rho": -0.1036,
+        "spearman_p": 0.5417454625615422,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "leaf_energy_vs_mean_log_p": {
+        "spearman_rho": 0.1385,
+        "spearman_p": 0.4137996752594112,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "entropy_vs_flip_rate": {
+        "spearman_rho": 0.0764,
+        "spearman_p": 0.6530429532475847,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "entropy_vs_mean_log_p": {
+        "spearman_rho": -0.0043,
+        "spearman_p": 0.9800016191840081,
+        "significant": false,
+        "n": 37,
+        "note": ""
+      },
+      "lesion_frac(all)_vs_flip_rate": {
+        "spearman_rho": -0.6308,
+        "spearman_p": 2.8438788480796524e-05,
+        "significant": true,
+        "n": 37,
+        "note": ""
+      },
+      "lesion_frac(diseased)_vs_flip_rate": {
+        "spearman_rho": -0.6906,
+        "spearman_p": 0.0001329789410570061,
+        "significant": true,
+        "n": 25,
+        "note": ""
+      },
+      "lesion_frac(all)_vs_mean_log_p": {
+        "spearman_rho": 0.7309,
+        "spearman_p": 2.793231369609742e-07,
+        "significant": true,
+        "n": 37,
+        "note": ""
+      },
+      "lesion_frac(diseased)_vs_mean_log_p": {
+        "spearman_rho": 0.73,
+        "spearman_p": 3.444191908242496e-05,
+        "significant": true,
+        "n": 25,
+        "note": ""
+      }
+    },
+    "tercile_correlations_10pct": {
+      "small_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.0425,
+        "spearman_p": 0.1541144314315249,
+        "n": 1124
+      },
+      "small_lesion_lift_vs_p_patched": {
+        "spearman_rho": -0.0849,
+        "spearman_p": 0.004396864146570966,
+        "n": 1124
+      },
+      "medium_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.0696,
+        "spearman_p": 0.019699345548502886,
+        "n": 1123
+      },
+      "medium_lesion_lift_vs_p_patched": {
+        "spearman_rho": -0.1321,
+        "spearman_p": 8.996048214447412e-06,
+        "n": 1123
+      },
+      "large_lesion_energy_vs_p_patched": {
+        "spearman_rho": 0.0598,
+        "spearman_p": 0.0450351443058423,
+        "n": 1124
+      },
+      "large_lesion_lift_vs_p_patched": {
+        "spearman_rho": -0.261,
+        "spearman_p": 5.771612900581704e-19,
+        "n": 1124
+      }
+    },
+    "plantdoc_accuracy": 0.18,
+    "plantdoc_crop_correct": 0.3867,
+    "bg_clean_acc": 0.9972,
+    "bg_leaf_only_acc": 0.992,
+    "bg_bg_only_acc": 0.1501,
+    "bg_leaf_only_acc_cc": 0.9939,
+    "bg_bg_only_acc_cc": 0.1505,
+    "bg_swap_own_pct": 0.9849,
+    "bg_swap_donor_pct": 0.0012
+  },
+  "mcnemar": {
+    "b": 885,
+    "c": 11,
+    "p_value": 2.6980015365473154e-245
+  }
+}

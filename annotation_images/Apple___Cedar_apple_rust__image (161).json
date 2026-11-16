@@ -1,0 +1,188 @@
+{
+  "version": "7.9.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Blight",
+      "points": [
+        [
+          156.80985267034993,
+          85.0310773480663
+        ],
+        [
+          162.72749769797423,
+          89.43514042357275
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          166.95603130755066,
+          75.11366252302027
+        ],
+        [
+          171.58598066298345,
+          80.59536141804789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          176.50224447513813,
+          109.76490561694291
+        ],
+        [
+          184.19532688766114,
+          114.68548572744015
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          156.15089779005527,
+          120.65492633517496
+        ],
+        [
+          150.27066068139965,
+          118.73992863720075
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          184.02699125230203,
+          135.3778199815838
+        ],
+        [
+          191.28125,
+          139.83655616942912
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          148.42616252302025,
+          145.1873273480663
+        ],
+        [
+          155.37108655616944,
+          149.08494475138122
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          113.1922191528545,
+          78.51346685082873
+        ],
+        [
+          118.82354972375691,
+          81.45142725598527
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          179.96679327808474,
+          164.99625920810314
+        ],
+        [
+          176.31520488029466,
+          170.328326427256
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Blight",
+      "points": [
+        [
+          99.06209714548802,
+          110.81376611418048
+        ],
+        [
+          107.67742863720073,
+          120.53550874769797
+        ],
+        [
+          104.15676795580112,
+          134.51743784530387
+        ],
+        [
+          111.67144337016575,
+          137.2726749539595
+        ],
+        [
+          116.82798112338858,
+          118.4406652854512
+        ],
+        [
+          104.34236878453038,
+          104.16091160220995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "Apple___Cedar_apple_rust__image (161).JPG",
+  "imageData": null,
+  "imageHeight": 256,
+  "imageWidth": 256
+}
